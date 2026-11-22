@@ -26,7 +26,7 @@ def combine_foods():
     meal=''
     
     for food in foods:
-        meal += food
+        meal += food + ' '
     return meal 
         
 
